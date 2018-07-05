@@ -1,0 +1,24 @@
+{% extends 'core/base.html' %}
+
+
+{% block title%}Sobre{% endblock%}
+
+{% block background %}{% load static %}{% static 'core/img/filosofia.jpg' %}{% endblock%}
+
+{% block headers %}
+<h1>Filosofia</h1>
+{% endblock %}
+
+{% block content%}
+<div class="row">
+     <div class="col-lg-8 col-md-10 mx-auto"></div>
+     <!--<div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        -->
+    </div>
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>     COYEM LIMITADA es una empresa constructora. Nuestra filosofía es  involucrarnos en el o los  proyectos que ejecutamos, asesorando constantemente  a nuestros clientes en las posibles modificaciones, y /o medidas correctivas del mismo que permitan mejorar el optimo resultado de este. En definitiva, creamos una asociación donde el beneficio es mutuo.</p>
+    </div>
+</div>
+{% endblock%}

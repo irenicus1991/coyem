@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+
+{% block title%}Sobre{% endblock%}
+
+{% block background %}{% load static %}{% static 'core/img/mision.jpg' %}{% endblock%}
+
+{% block headers %}
+<h1>Misión</h1>
+{% endblock %}
+
+{% block content%}
+<div class="row">
+     <div class="col-lg-8 col-md-10 mx-auto"></div>
+     <!--<div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        -->
+    </div>
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>     Nuestra misión es comprometernos con el cliente de manera de garantizar  que sus requerimientos se cumplan con eficiencia, calidad, honestidad y confiabilidad. Desde el momento que asumimos un compromiso, nuestros pensamientos, energías y recursos se concentran en lograr resultados de calidad en el plazo acordado y con precios competitivos.
+
+            Para lograr nuestra misión, estamos en un mejoramiento continuo, entrenando, capacitando y  en un fuerte trabajo de motivación al personal, suponiendo como premisa  un potente  énfasis en la seguridad de nuestro personal y nuestras obras, también  trabajar en armonía con el entorno, cumplir con nuestros compromisos y obligaciones, tanto contractuales como financieros, principios que esta arraigados en la cultura de toda nuestra organización.
+            
+            Nuestro principal recurso es el capital humano, nuestros trabajadores, clientes y proveedores</p>
+    </div>
+</div>
+{% endblock%}
